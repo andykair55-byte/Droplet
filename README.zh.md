@@ -1,6 +1,6 @@
-# 网络盾牌 (Cyber Shield)
+# Droplet
 
-> 一款保护你免受网络骚扰的用户脚本，跨平台适用。
+
 
 [**English**](README.en.md) | [**中文**](README.zh.md)
 

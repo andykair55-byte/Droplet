@@ -1014,8 +1014,7 @@ export const SystemMixin = {
         <!-- 平台 & 支持 -->
         <div class="cs-about-section cs-about-footer">
           <div class="cs-about-links">
-            <a href="https://github.com/andykair55-byte/CivilityFilter.git" target="_blank" class="cs-about-link">GitHub</a>
-            <a href="https://discord.gg/cybershield" target="_blank" class="cs-about-link">${t('aboutDiscord')}</a>
+            <a href="https://github.com/andykair55-byte/Droplet" target="_blank" class="cs-about-link">GitHub</a>
           </div>
           <button class="cs-btn cs-btn-sm cs-btn-accent" id="cs-dash-check-update">${t('checkUpdateBtn')}</button>
           <span id="cs-dash-update-status" class="cs-hint"></span>

@@ -70,16 +70,13 @@ function csReplace(values) {
   };
 }
 
-// UserScript header：dev/user 区别
-//   dev: 标记为 "Dev Build" + 描述提醒 + 输出文件名带 -dev
-//   user: 默认
 const USERSCRIPT_HEADER = `// ==UserScript==
-// @name         CyberShield${isDev ? ' [DEV]' : ''}
-// @name:zh-CN   CyberShield 网暴保护${isDev ? ' [开发版]' : ''}
-// @namespace    https://github.com/andykair55-byte/CivilityFilter.git
+// @name         Droplet
+// @name:zh-CN   Droplet 网络盾牌
+// @namespace    https://github.com/andykair55-byte/Droplet
 // @version      ${VERSION}
-// @description  ${isDev ? '🛠️ DEV BUILD — includes test panel and extra diagnostics. NOT FOR END USERS.' : 'Protect yourself from online harassment. Detects, blurs, and logs toxic content.'}
-// @description:zh-CN ${isDev ? '🛠️ 开发版 — 包含调试面板与诊断工具，仅供开发者使用。' : '保护你免受网络暴力。自动检测、屏蔽并记录骚扰内容。'}
+// @description  Protect yourself from online harassment. Detects, blurs, and logs toxic content.
+// @description:zh-CN 保护你免受网络暴力。自动检测、屏蔽并记录骚扰内容。
 // @author       CyberShield Contributors
 // @license      MIT
 //

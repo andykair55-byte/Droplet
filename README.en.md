@@ -1,10 +1,10 @@
-# Cyber Shield
+# Droplet
 
 > A userscript that protects you from online harassment — across any platform.
 
 [**中文**](README.zh.md) | [**English**](README.en.md)
 
-Cyber Shield is a browser userscript (compatible with Tampermonkey, Greasemonkey, etc.) that detects, filters, and blocks online harassment in real time. It supports **29 languages** out of the box and uses both pattern-based and AI-driven detection to keep you safe while browsing.
+Droplet is a browser userscript (compatible with Tampermonkey, Greasemonkey, etc.) that detects, filters, and blocks online harassment in real time. It supports **29 languages** out of the box and uses both pattern-based and AI-driven detection to keep you safe while browsing.
 
 ---
 
@@ -34,7 +34,7 @@ cyber-shield-monorepo/
 
 ### Packages
 
-**`packages/core`** — The heart of Cyber Shield:
+**`packages/core`** — The heart of Droplet:
 
 | Module | Description |
 |--------|-------------|

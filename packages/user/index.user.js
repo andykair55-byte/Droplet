@@ -1,5 +1,5 @@
 /**
- * CyberShield User Edition - Entry Point
+ * Droplet - Entry Point
  *
  * 用户端入口文件，导入所有 core 模块和用户端特有的 UI/AI 模块。
  */

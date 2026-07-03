@@ -244,7 +244,6 @@ const strings = {
     aboutFeatCategory: '热点规则 — 带 TTL 的时效性规则，组合触发 + 启发式复核',
     aboutPrivacy: '隐私声明',
     aboutGithub: 'GitHub',
-    aboutDiscord: 'Discord 社区',
 
     // ── 更新日志 ──────────────────────────────────────────────────────
     changelogTitle: '更新日志',
@@ -952,7 +951,6 @@ const strings = {
     aboutFeatCategory: 'Hot topic rules — TTL-based ephemeral rules, combination triggers + heuristic review',
     aboutPrivacy: 'Privacy',
     aboutGithub: 'GitHub',
-    aboutDiscord: 'Discord Community',
 
     // ── Changelog ──────────────────────────────────────────────────────
     changelogTitle: 'Changelog',
