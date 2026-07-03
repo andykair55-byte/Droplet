@@ -1,0 +1,43 @@
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Local docs & test framework
+docs/
+log/
+
+# Temp / scratch files
+_tmp_*
+nul
+.uploads/
+
+# rules/merged-patterns.json — now tracked as source of truth
+
+# Image assets (keep out of repo root)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Landing / marketing pages
+z-join/

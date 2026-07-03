@@ -1,0 +1,43 @@
+{
+  "name": "cyber-shield-monorepo",
+  "version": "0.8.0",
+  "private": true,
+  "description": "A userscript that protects you from online harassment — across any platform.",
+  "type": "module",
+  "scripts": {
+    "merge-rules": "node scripts/merge-patterns.mjs",
+    "build": "node scripts/build.mjs user",
+    "build:user": "node scripts/build.mjs user",
+    "build:dev": "node scripts/build.mjs dev",
+    "build:dev:watch": "node scripts/build.mjs dev --watch",
+    "build:all": "node scripts/build.mjs user && node scripts/build.mjs dev",
+    "dev": "node scripts/build.mjs dev --watch",
+    "lint": "eslint packages/core packages/user --ignore-pattern ai-agent-engine",
+    "lint:fix": "eslint packages/core packages/user --ignore-pattern ai-agent-engine --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "cybershield",
+    "userscript",
+    "harassment",
+    "protection",
+    "tampermonkey"
+  ],
+  "author": "CyberShield Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.1.0",
+    "rollup": "^4.61.0",
+    "vitest": "^3.2.1"
+  },
+  "dependencies": {
+    "naughty-words": "^1.2.0"
+  }
+}
